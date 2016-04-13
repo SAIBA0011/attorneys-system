@@ -6,14 +6,16 @@
                 @foreach($slides as $slide)
                     <div data-p="225.00" style="display: none;">
                         <img data-u="image" src="{{ $slide->thumbnail }}"/>
-                        <div class="text-container">
-                            <center>
-                                <div class="intro-text text-center">
-                                    <h6 style="margin-bottom: 0px">{{ str_limit($slide->title, 68) }}</h6>
-                                    <p>{{ $slide->date_location }}</p>
-                                </div>
-                            </center>
-                        </div>
+                        @if($slide->title)
+                            <div class="text-container">
+                                <center>
+                                    <div class="intro-text text-center">
+                                        <h6 style="margin-bottom: 0px">{{ str_limit($slide->title, 68) }}</h6>
+                                        <p>{{ $slide->date_location }}</p>
+                                    </div>
+                                </center>
+                            </div>
+                        @endif
                     </div>
                 @endforeach
                 @else

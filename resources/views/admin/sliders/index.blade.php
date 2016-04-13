@@ -14,8 +14,8 @@
                                 </div>
 
                                 <div class="col-md-9">
-                                    <h5>{{ $slide->title }}</h5>
-                                    <p>{{ $slide->date_location }}</p>
+                                    <h5>{{ ($slide->title)? : "No Title Provided" }}</h5>
+                                    <p>{{ ($slide->date_location)? : "No Description Provided" }}</p> <br>
                                     {!! Form::open(['Method' => 'Destroy', 'route' => ['admin.sliders.destroy', $slide->id]]) !!}
                                     <a href="{{route('admin.slider.edit', $slide->id)}}" class="btn btn-default btn-xs">Edit Slide</a>
                                     {!! Form::submit('Remove Slider', ['class' => 'delete btn btn-danger btn-xs']) !!}

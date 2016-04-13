@@ -27,8 +27,7 @@ class AdminSliderRequest extends Request
     public function rules()
     {
         return [
-            'title' => 'required',
-            'date_location' => 'required',
+            'thumbnail' => 'required',
         ];
     }
 }
