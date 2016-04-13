@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand hidden-sm hidden-xs" href="/"><img src="/assets/frontend/img/npo.png" style="max-width: 170px;" alt=""></a>
+            <a class="navbar-brand hidden-sm hidden-xs" href="/"><img src="/assets/frontend/img/logo-1.png" style="max-width: 170px;" alt=""></a>
         </div>
 
         <div id="navbar" class="navbar-collapse collapse">
