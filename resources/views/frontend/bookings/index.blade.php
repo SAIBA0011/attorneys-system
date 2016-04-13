@@ -14,7 +14,7 @@
                 <div class="divider20"></div>
                 <div class="col-sm-12 col-xs-12 col-md-12 text-center">
                     <h6 style="color: #ef5505;" class="margin-bottom-0">Book Your Tickets for Not-for-Profit Industry Conference <br>
-                        <small>Early bird expires in {{Carbon\Carbon::parse(App\Models\PricePlan::first()->early_bird_expiry)->diffForHumans()}}</small>
+                        <small>Early bird expires in {{date_format(Carbon\Carbon::parse(App\Models\PricePlan::first()->early_bird_expiry), 'd F Y')}}</small>
                     </h6>
                 </div>
             </div>
