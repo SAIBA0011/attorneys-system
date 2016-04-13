@@ -13,7 +13,7 @@
             <div class="row">
                 <div class="divider20"></div>
                 <div class="col-sm-12 col-xs-12 col-md-12 text-center">
-                    <h6 style="color: #ef5505;" class="margin-bottom-0">Book Your Tickets for Not-for-Profit Industry Conference <br>
+                    {{--<h6 style="color: #ef5505;" class="margin-bottom-0">Book Your Tickets for Not-for-Profit Industry Conference <br>--}}
                         <small>Early bird prices expire on {{date_format(Carbon\Carbon::parse(App\Models\PricePlan::first()->early_bird_expiry), 'd F Y')}}</small>
                     </h6>
                 </div>

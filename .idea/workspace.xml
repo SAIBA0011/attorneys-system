@@ -49,9 +49,11 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="388">
+              <caret line="16" column="125" selection-start-line="16" selection-start-column="125" selection-end-line="16" selection-end-column="125" />
+              <folding>
+                <marker date="1460550752201" expanded="false" signature="493:508" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -268,12 +270,12 @@
       <option name="presentableId" value="Default" />
       <updated>1460009953930</updated>
       <workItem from="1460009955287" duration="7373000" />
-      <workItem from="1460538041883" duration="11713000" />
+      <workItem from="1460538041883" duration="11746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19086000" />
+    <option name="totallyTimeSpent" value="19119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -687,9 +689,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="388">
+          <caret line="16" column="125" selection-start-line="16" selection-start-column="125" selection-end-line="16" selection-end-column="125" />
+          <folding>
+            <marker date="1460550752201" expanded="false" signature="493:508" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
