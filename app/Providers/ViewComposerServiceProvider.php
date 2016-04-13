@@ -40,6 +40,7 @@ class ViewComposerServiceProvider extends ServiceProvider
             $view->with('slides', Slider::all());
             $view->with('boxes', HomePage::all());
             $view->with('speakers', Speaker::all());
+            $view->with('event', EventInfo::all());
         });
 
         view()->composer('frontend.partials.nav', function($view){

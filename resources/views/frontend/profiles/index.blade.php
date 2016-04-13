@@ -5,7 +5,11 @@
 @endsection
 @section('intro')
     <p>
-        Test
+        @if($event)
+            {{ $event->title }}, {{ $event->venue }}
+        @else
+            Event / Conference title
+        @endif
     </p>
 @endsection
 

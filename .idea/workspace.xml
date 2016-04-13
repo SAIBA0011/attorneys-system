@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,30 +26,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state relative-caret-position="360">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
+      <file leaf-file-name="ViewComposerServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="540">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php">
+      <file leaf-file-name="EventInformationServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Providers/EventInformationServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+            <state relative-caret-position="504">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -81,13 +79,14 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/members/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/config/broadcasting.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/MessagesController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php" />
       </list>
     </option>
   </component>
@@ -163,8 +162,18 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="attorneys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attorneys" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -178,55 +187,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attorneys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attorneys" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="speakers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attorneys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="attorneys" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="Providers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,7 +206,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/messenger/includes/new-message-nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss" />
+    <property name="SearchEverywhereHistoryKey" value="ViewCom&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/messenger/includes/new-message-nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -257,12 +222,12 @@
       <option name="presentableId" value="Default" />
       <updated>1460009953930</updated>
       <workItem from="1460009955287" duration="7373000" />
-      <workItem from="1460538041883" duration="7875000" />
+      <workItem from="1460538041883" duration="8709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15248000" />
+    <option name="totallyTimeSpent" value="16082000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -496,15 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -633,10 +589,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+        <state relative-caret-position="352">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -649,10 +605,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/users/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+        <state relative-caret-position="508">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventInformationServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding />
         </state>
       </provider>
