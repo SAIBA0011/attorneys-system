@@ -42,7 +42,7 @@
                         @if(count($about))
                             <div class="row">
                                 <h6 class="highlight custom-font">{{$about->title}}</h6>
-                                {!! str_limit($about->description, 450) !!}
+                                {!! str_limit($about->description, 450) !!} <br>
                                 <p><a href="{{route('about.show')}}" class="btn btn-default">Read More..</a></p>
                             </div>
                         @else
@@ -50,7 +50,7 @@
                                 <h6 class="highlight custom-font">Place Holder Title</h6>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at blanditiis cum eveniet nihil placeat qui recusandae repudiandae saepe! Corporis culpa deserunt eos exercitationem expedita nostrum rem tenetur vero voluptatibus?
-                                </p>
+                                </p> <br>
                                 <p><a href="{{route('about.show')}}" class="btn btn-default">Read More..</a></p>
                             </div>
                         @endif
