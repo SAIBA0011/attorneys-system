@@ -48,12 +48,7 @@
 @section('scripts')
     <script>
         function initMap() {
-            @if(count($event) >= 1)
-                var myLatLng = {lat: {!! $event->latitude !!}, lng: {!! $event->longitude !!}};
-            @else
-                var myLatLng = {lat: -26.107566, lng: 28.056701};
-            @endif
-
+            var myLatLng = {lat: {!! (json_decode($event->latitude))? : '-26.107566' !!}, lng: {!! (json_decode($event->longitude))? : '28.056701' !!}};
             var map = new google.maps.Map(document.getElementById('map'), {
                 zoom: 15,
                 center: myLatLng
