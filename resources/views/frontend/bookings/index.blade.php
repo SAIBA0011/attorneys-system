@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="divider20"></div>
                 @foreach($plans as $plan)
-                    <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4" id="home-box">
+                    <div class="col-md-6 col-xs-6 col-sm-6 col-lg-6" id="home-box">
                         <div class="pricing_header">
                             <p class="text-center">{{ucfirst($plan->title)}}</p>
                             <div class="space"></div>
