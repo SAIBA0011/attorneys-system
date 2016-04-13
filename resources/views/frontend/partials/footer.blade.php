@@ -3,7 +3,7 @@
     <hr style="margin-bottom: 12px; margin-top: 0px; padding-top: 0px">
     <div class="container">
         <div class="row">
-            <p class="text-muted pull-left">COPYRIGHT &copy; 2016 Events</p>
+            <p class="text-muted pull-left">COPYRIGHT &copy; {{ \Carbon\Carbon::now()->year }} {{ $event->title }}</p>
             <p style="display: none">Suitcase graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a></p>
             <div class="pull-right">
                 <ul class="social-network social-circle">

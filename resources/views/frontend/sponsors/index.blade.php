@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-md-12">
 
-                @unless(count($categories && $sponsorpage))
+                @unless(count($categories))
                     <div class="alert alert-danger alert-custom" role="alert">
                         <p>There are currently no sponsors available for this event, Please check back later</p>
                     </div>
