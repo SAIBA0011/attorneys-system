@@ -8,7 +8,6 @@
 @endsection
 
 @section('content')
-
     @if(count($plans))
         <div class="auto-container">
             <div class="row">
@@ -62,6 +61,6 @@
                 </div>
             </div>
             </div>
+        @endif
         </div>
-    @endif
 @endsection
