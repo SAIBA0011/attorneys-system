@@ -32,7 +32,7 @@
                             </div>
 
                             <div class="form-group">
-                                {!! Form::submit('Regsiter', ['class' => 'btn custom-btn-theme btn-block']) !!}
+                                {!! Form::submit('Register', ['class' => 'btn custom-btn-theme btn-block']) !!}
                             </div>
                         </fieldset>
                         {!! Form::close() !!}
