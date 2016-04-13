@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/frontend.css" afterPath="$PROJECT_DIR$/public/css/frontend.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/frontend.css.map" afterPath="$PROJECT_DIR$/public/css/frontend.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
+            <state relative-caret-position="180">
+              <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
               <folding />
             </state>
           </provider>
@@ -73,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
@@ -126,8 +119,8 @@
         <option value="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" />
       </list>
     </option>
   </component>
@@ -328,12 +321,12 @@
       <updated>1460009953930</updated>
       <workItem from="1460009955287" duration="7373000" />
       <workItem from="1460538041883" duration="13139000" />
-      <workItem from="1460568610804" duration="3284000" />
+      <workItem from="1460568610804" duration="3376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23796000" />
+    <option name="totallyTimeSpent" value="23888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -750,24 +743,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontend.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="e#301#327#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="82" selection-start-line="10" selection-start-column="82" selection-end-line="10" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -780,6 +755,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontend.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding>
+            <element signature="e#301#327#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
           <folding />
         </state>
       </provider>
