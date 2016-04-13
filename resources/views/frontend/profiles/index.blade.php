@@ -5,7 +5,7 @@
 @endsection
 @section('intro')
     <p>
-        {{ $event->title }}, {{ $event->venue }}
+        Test
     </p>
 @endsection
 

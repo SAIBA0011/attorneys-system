@@ -14,7 +14,6 @@ use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Input;
 use Laracasts\Flash\Flash;
-use Pusher;
 
 class MessagesController extends Controller
 {
@@ -100,7 +99,7 @@ class MessagesController extends Controller
      * @param Pusher $pusher
      * @return mixed
      */
-    public function update($id, Pusher $pusher)
+    public function update($id)
     {
         try {
             $thread = Thread::findOrFail($id);
@@ -130,7 +129,6 @@ class MessagesController extends Controller
         if (Input::has('recipients')) {
             $thread->addParticipants(Input::get('recipients'));
         }
-        $pusher->trigger('test_channel', 'userResponded', ['message' => Input::get('message')]);
         return redirect('profile/messages/' . $id);
     }
 }

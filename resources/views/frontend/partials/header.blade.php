@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Eventsys</title>
+    <title>Practice Management Conference</title>
 
     <link rel='stylesheet' type='text/css' href='/css/frontend.css' />
     <link href='https://fonts.googleapis.com/css?family=Roboto:100,400' rel='stylesheet' type='text/css'>

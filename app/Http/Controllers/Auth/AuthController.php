@@ -70,12 +70,12 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
         ]);
-            Mail::send('emails.welcome', ['user' => $user], function($m) use ($user){
-                $m->from('welcome@eventsys.co.za', 'Events / Conferences');
-                $m->to($user->email, $user->name)->subject('Welcome');
-            });
-
         $user->profile()->save(new UserProfile);
+        Mail::send('emails.welcome', ['user' => $user], function($m) use ($user){
+            $m->from('welcome@eventsys.co.za', 'Events / Conferences');
+            $m->to($user->email, $user->name)->subject('Welcome');
+        });
+        
         return $user;
     }
 }
