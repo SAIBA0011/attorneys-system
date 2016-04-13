@@ -10,6 +10,7 @@ Route::group(['middleware' => ['web']], function () {
 
     // AdminUserController Routes
         Route::get('users', ['as' => 'users.all', 'uses' => 'Admin\AdminUserController@getUsers']);
+        Route::post('user/delete/{id}', ['as' => 'user.destroy', 'uses' => 'Admin\AdminUserController@destroy']);
 
     // AdminDayController Routes
         Route::get('days/show', ['as' => 'days', 'uses' => 'Admin\AdminDayController@index']);

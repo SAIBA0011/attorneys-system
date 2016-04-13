@@ -15,6 +15,7 @@
                                 <th>Vissit profile</th>
                                 <th>Join Date</th>
                                 <th>User Role</th>
+                                <th>Tools</th>
                             </tr>
                             </thead>
                             <tbody>
@@ -25,6 +26,13 @@
                                     <th class="no-hover"><a href="{{ route('profile.profile', $user->slug) }}" target="_blank">View profile</a></th>
                                     <td>{{ date_format($user->created_at, 'Y-m-d') }}</td>
                                     <td> {{ ($user->isAdmin())? "Administrator" : "User" }} </td>
+                                    <td>
+                                        {!! Form::open(['Method' => 'Post', 'route' => ['admin.user.destroy', $user->id]]) !!}
+                                        <div class="form-group">
+                                            {!! Form::submit('Remove', ['class' => 'delete btn btn-xs btn-danger']) !!}
+                                        </div>
+                                        {!! Form::close() !!}
+                                    </td>
                                 </tr>
                             @endforeach
                             </tbody>
