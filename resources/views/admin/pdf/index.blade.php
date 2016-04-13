@@ -9,9 +9,9 @@
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <i>
-                            The File uploaded in this section will be displayed on the front end
+                            The file uploaded in this section will be displayed on the front end
                             <a href="{{route('schedule')}}" target="_blank">schedule</a> page at the bottom.
-                            This file will also be available or mobile devices to download.
+                            This file will also be available on mobile devices to download.
                         </i>
                     </div>
                 </div>

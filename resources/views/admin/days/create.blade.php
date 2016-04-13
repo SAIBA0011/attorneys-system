@@ -13,7 +13,7 @@
                             <a href="{{route('schedule')}}" target="_blank">schedule</a> page.
                             Please select one of the following available days to add to the site.
                             Once you have selected a day, please select a required date for this day,
-                            Example: Day one will held on 19 Feb 2016 and Day Two will be held on 20 Feb 2016
+                            Example: Day one will be held on 19 Feb 2016 and Day Two will be held on 20 Feb 2016
                         </i>
                     </div>
                 </div>

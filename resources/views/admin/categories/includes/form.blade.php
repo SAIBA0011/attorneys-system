@@ -4,7 +4,7 @@
 </div>
 
 <div class="form-group">
-    {!! form::label('position', 'Dispaly Position, "1 for first, 100 for last"') !!}
+    {!! form::label('position', 'Display Position, "1 for first, 100 for last"') !!}
     {!! Form::input('text', 'position', null, ['class' => 'form-control bfh-number']) !!}
 </div>
 

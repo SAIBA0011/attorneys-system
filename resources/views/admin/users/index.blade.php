@@ -12,7 +12,7 @@
                             <tr>
                                 <th>Full Name</th>
                                 <th>Email Address</th>
-                                <th>Vissit profile</th>
+                                <th>Visit profile</th>
                                 <th>Join Date</th>
                                 <th>User Role</th>
                                 <th>Tools</th>

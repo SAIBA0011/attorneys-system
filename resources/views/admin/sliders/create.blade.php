@@ -10,7 +10,7 @@
                     <div class="panel-body">
                         <i>
                             The sliders created on this page will be displayed on the front end home page.
-                            Please note that all uplaoded images will be resized to 2000px W, 688px H
+                            Please note that all uploaded images will be resized to 2000px W, 688px H
                         </i>
                     </div>
                 </div>
