@@ -30,19 +30,19 @@
                         <table class="table table-responsive table-bordered">
                             <thead>
                             <th>Available Options</th>
-                            <th>Full Price</th>
                             @if($plan->early_bird_expiry >= \Carbon\Carbon::today())
                                 <th>Early Bird</th>
                             @endif
+                            <th>Full Price</th>
                             </thead>
                             <tbody>
                             @foreach($plan->PlanOption as $option)
                                 <tr>
                                     <td>{{$option->title}}</td>
-                                    <td>{{$option->full_price}}</td>
                                     @if($plan->early_bird_expiry >= \Carbon\Carbon::today())
                                         <td>{{$option->early_bird}}</td>
                                     @endif
+                                    <td>{{$option->full_price}}</td>
                                 </tr>
                             @endforeach
                             </tbody>
