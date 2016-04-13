@@ -6,7 +6,7 @@
 @section('intro')
     <p>
         @if($event)
-            {{ $event->title }}, {{ $event->venue }}
+            {{ $event->title }}, {{$event->venue_name}}, {{ $event->date }}
         @else
             Event / Conference title
         @endif
