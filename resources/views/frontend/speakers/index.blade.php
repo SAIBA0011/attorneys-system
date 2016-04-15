@@ -20,7 +20,7 @@
 
                     @unless(count($speakers))
                         <div class="alert alert-danger alert-custom" role="alert">
-                            <p>There are currently no speakers available for this event, Please check back later</p>
+                            <p>The speakers for this event will be available very soon.</p>
                         </div>
                         @endif
 
