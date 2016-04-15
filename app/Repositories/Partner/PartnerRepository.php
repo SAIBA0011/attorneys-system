@@ -50,7 +50,7 @@ class PartnerRepository implements PartnerRepositoryInterface
         $thumbnail = Input::file('thumbnail');
         $filename = time() . '.' . $thumbnail->getClientOriginalExtension();
         $path = public_path($folder . $filename);
-        Image::make($thumbnail->getRealPath())->fill('400', '200')->save($path);
+        Image::make($thumbnail->getRealPath())->fill()->save($path);
         $thumbnail = ['thumbnail' => $folder . $filename];
         return $thumbnail;
     }
