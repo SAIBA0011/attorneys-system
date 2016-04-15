@@ -12,7 +12,7 @@
 
                 @elseif(count($partners) <= 6)
                     @foreach($partners->slice(0, 6) as $partner)
-                        <div class="col-md-2 col-sm-2 col-xs-2"><a href="/partners/{!!($partner->slug)!!}">
+                        <div class="col-md-2 col-sm-2 col-xs-2"><a href="{{ route('about.partners', $partner->id) }}">
                                 <img style="max-width: 100%" src="{{$partner->PartnerImage()}}" class="thumbnail" alt=""></a>
                         </div>
                     @endforeach
