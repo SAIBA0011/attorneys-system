@@ -18,11 +18,11 @@
         <div class="row">
             <div class="col-md-12">
 
-                @unless(count($categories))
-                    <div class="alert alert-danger alert-custom" role="alert">
-                        <p>There are currently no sponsors available for this event, Please check back later</p>
-                    </div>
-                @endif
+                {{--@unless(count($categories))--}}
+                    {{--<div class="alert alert-danger alert-custom" role="alert">--}}
+                        {{--<p>There are currently no sponsors available for this event, Please check back later</p>--}}
+                    {{--</div>--}}
+                {{--@endif--}}
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
