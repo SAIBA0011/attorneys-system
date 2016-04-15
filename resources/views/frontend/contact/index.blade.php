@@ -40,6 +40,14 @@
                 <div class="border-box">
                     <div id="map" style="height: 400px"></div>
                 </div>
+
+                <hr>
+                <h6 class="highlight custom-font" style="margin-bottom: 0px">Contact Information</h6>
+                <p>
+                    <i class="fa fa-user" style="color: #e3e3e3"></i> {{ $event->contact_name }} <br>
+                    <i class="fa fa-envelope-o" style="color: #e3e3e3"></i> {{ $event->email_address }} <br>
+                    <i class="fa fa-phone" style="color: #e3e3e3"></i> {{ $event->contact_number }}
+                </p>
             </div>
         </div>
     </div>

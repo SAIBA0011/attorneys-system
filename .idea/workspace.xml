@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/partners/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/partners/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/EventInfo.php" afterPath="$PROJECT_DIR$/app/Models/EventInfo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,12 +26,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/partners/index.blade.php">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/information/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+              <folding>
+                <element signature="e#1500#1521#0#HTML" expanded="true" />
+                <element signature="e#1624#1650#0#HTML" expanded="true" />
+                <element signature="e#1738#1760#0#HTML" expanded="true" />
+                <element signature="e#1846#1868#0#HTML" expanded="true" />
+                <element signature="e#1950#1972#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +75,6 @@
         <option value="$PROJECT_DIR$/resources/assets/sass/admin/scss/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/layouts/frontend.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/home.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php" />
@@ -85,6 +112,10 @@
         <option value="$PROJECT_DIR$/resources/views/frontend/speakers/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/sponsor-slider.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partners/index.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php" />
+        <option value="$PROJECT_DIR$/app/Models/EventInfo.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" />
       </list>
     </option>
   </component>
@@ -214,7 +245,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="partners" />
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,7 +272,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;ViewCom&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="add&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;add_con&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;ViewCom&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
@@ -293,12 +324,12 @@
       <workItem from="1460538041883" duration="13139000" />
       <workItem from="1460568610804" duration="3977000" />
       <workItem from="1460630726707" duration="610000" />
-      <workItem from="1460714120138" duration="3577000" />
+      <workItem from="1460714120138" duration="5305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28676000" />
+    <option name="totallyTimeSpent" value="30404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -360,27 +391,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/members/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="22" column="159" selection-start-line="22" selection-start-column="159" selection-end-line="22" selection-end-column="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1432">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/cmgmyr/messenger/src/Cmgmyr/Messenger/examples/MessagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2804">
-          <caret line="42" column="7" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/broadcasting.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -493,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/EventInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/includes/form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -581,13 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -725,11 +721,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/EventInfo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/partners/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+        <state relative-caret-position="496">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/information/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+          <folding>
+            <element signature="e#1500#1521#0#HTML" expanded="true" />
+            <element signature="e#1624#1650#0#HTML" expanded="true" />
+            <element signature="e#1738#1760#0#HTML" expanded="true" />
+            <element signature="e#1846#1868#0#HTML" expanded="true" />
+            <element signature="e#1950#1972#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

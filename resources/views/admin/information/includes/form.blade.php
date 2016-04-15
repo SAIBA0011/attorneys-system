@@ -24,6 +24,25 @@
 </div>
 <hr>
 <p class="no-hover">
+    Please provide contact details of any person who will handle the queries for this event. <br>
+    <a href="{{ route('contact') }}" target="_blank">Can be viewed here</a>
+</p> 
+
+<div class="form-group">
+    {!! form::label('contact_name', 'Contact Name') !!}
+    {!! Form::input('text', 'contact_name', null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+    {!! form::label('email_address', 'Contact Email') !!}
+    {!! Form::input('text', 'email_address', null, ['class' => 'form-control']) !!}
+</div>
+<div class="form-group">
+    {!! form::label('contact_number', 'Contact Number') !!}
+    {!! Form::input('text', 'contact_number', null, ['class' => 'form-control']) !!}
+</div>
+
+<hr>
+<p class="no-hover">
     Please make use of the following link in order to obtain the Latitude & Longitude for your venue location. <br> This information will be used to generate the map on the contact us page. <br>
     <a href="http://www.latlong.net/" target="_blank">Visit the site.</a>
 </p>
