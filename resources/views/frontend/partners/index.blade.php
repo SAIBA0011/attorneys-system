@@ -35,8 +35,10 @@
                                 </div>
                                 <div class="col-md-9 col-sm-9 col-lg-9">
                                     <a href="{{route('about.partners.show', $partner->slug)}}" class="lg">{{$partner->title}}</a>
-                                    <p>{!! str_limit($partner->description, '270') !!}</p>
-                                    <a href="#"></a>
+                                    @if(strlen($partner->description) >= 15)
+                                        <p>{!! str_limit($partner->description, '270') !!}</p>
+                                        {{--<a href="#"></a>--}}
+                                    @endif
                                     <br>
                                     <a href="{{route('about.partners.show', $partner->slug)}}" class="btn btn-default">View Partner</a>
                                 </div>
