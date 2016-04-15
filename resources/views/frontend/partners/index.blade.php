@@ -38,6 +38,8 @@
                                     @if(strlen($partner->description) >= 15)
                                         <p>{!! str_limit($partner->description, '270') !!}</p>
                                         {{--<a href="#"></a>--}}
+                                    @else
+                                    <br>
                                     @endif
                                     <br>
                                     <a href="{{route('about.partners.show', $partner->slug)}}" class="btn btn-default">View Partner</a>
