@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,53 +25,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php">
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/about/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontend.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontend.blade.php">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/about/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="712">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-              <folding>
-                <element signature="e#301#327#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
+            <state relative-caret-position="676">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss">
+      <file leaf-file-name="summernote.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="3764" column="20" selection-start-line="3764" selection-start-column="20" selection-end-line="3764" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="252">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,6 +100,7 @@
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php" />
       </list>
     </option>
   </component>
@@ -168,6 +148,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,7 +204,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -244,11 +226,41 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sponsors" />
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attorneys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="attorneys" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="about" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,8 +280,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +287,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;ViewCom&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;ViewCom&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;Adminseeder&#9;null&#9;null&#10;User.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;navbar-accept-friend-request.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;nav.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;header.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;register&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/auth/register.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;EventIn&#9;null&#9;null&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/contact/index.blade.php&#10;Sponsor&#9;null&#9;null&#10;front&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
@@ -296,6 +306,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -321,12 +337,14 @@
       <updated>1460009953930</updated>
       <workItem from="1460009955287" duration="7373000" />
       <workItem from="1460538041883" duration="13139000" />
-      <workItem from="1460568610804" duration="3376000" />
+      <workItem from="1460568610804" duration="3977000" />
+      <workItem from="1460630726707" duration="610000" />
+      <workItem from="1460714120138" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23888000" />
+    <option name="totallyTimeSpent" value="25133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -388,34 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/profiles/includes/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="82" selection-start-line="12" selection-start-column="20" selection-end-line="13" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/profiles/messenger/includes/new-message-nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -568,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -576,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,7 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1116">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -600,7 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -608,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="9" column="41" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-468">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -664,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
           <caret line="180" column="43" selection-start-line="180" selection-start-column="43" selection-end-line="180" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -704,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -712,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="12" column="75" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -728,24 +698,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="15" column="234" selection-start-line="15" selection-start-column="234" selection-end-line="15" selection-end-column="234" />
-          <folding>
-            <element signature="e#482#505#0#HTML" expanded="true" />
-            <element signature="e#537#559#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/frontend/scss/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
+        <state relative-caret-position="135504">
           <caret line="3764" column="20" selection-start-line="3764" selection-start-column="20" selection-end-line="3764" selection-end-column="20" />
           <folding />
         </state>
@@ -759,20 +717,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontend.blade.php">
+    <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
-          <folding>
-            <element signature="e#301#327#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="360">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="131" selection-start-line="5" selection-start-column="131" selection-end-line="5" selection-end-column="131" />
+        <state relative-caret-position="540">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontend.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/about/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/pages/about/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
