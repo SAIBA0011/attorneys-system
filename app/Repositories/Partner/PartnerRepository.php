@@ -4,6 +4,7 @@ namespace App\Repositories\Partner;
 use App\Models\Partner;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Input;
+use Intervention\Image\Facades\Image;
 
 class PartnerRepository implements PartnerRepositoryInterface
 {
