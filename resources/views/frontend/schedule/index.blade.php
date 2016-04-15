@@ -6,7 +6,11 @@
     Conference Schedule 2016
 @endsection
 @section('intro')
-    The Conference schedule below, you can also download the conference program in .PDF format.
+    @if($file)
+        Please see the conference schedule below. You can also download the conference programme in .PDF format.
+    @else
+        <br>
+    @endif
 @endsection
 
 <div class="container visible-lg">
@@ -16,7 +20,7 @@
         <div class="col-md-12">
             @unless(count($days))
                 <div class="alert alert-danger alert-custom" role="alert" >
-                    <p>There are currently no schedule available for this event, Please check back later</p>
+                    <p>The programme for this year's conference will be available very soon.</p>
                 </div>
             @endif
         </div>
