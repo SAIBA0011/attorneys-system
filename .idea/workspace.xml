@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/EventInfo.php" afterPath="$PROJECT_DIR$/app/Models/EventInfo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/information/includes/form.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
@@ -49,14 +47,14 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+            <state relative-caret-position="568">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="e#1500#1521#0#HTML" expanded="true" />
-                <element signature="e#1624#1650#0#HTML" expanded="true" />
-                <element signature="e#1738#1760#0#HTML" expanded="true" />
-                <element signature="e#1846#1868#0#HTML" expanded="true" />
-                <element signature="e#1950#1972#0#HTML" expanded="true" />
+                <element signature="e#1656#1682#0#HTML" expanded="true" />
+                <element signature="e#1778#1800#0#HTML" expanded="true" />
+                <element signature="e#1890#1912#0#HTML" expanded="true" />
+                <element signature="e#1998#2020#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -324,12 +322,12 @@
       <workItem from="1460538041883" duration="13139000" />
       <workItem from="1460568610804" duration="3977000" />
       <workItem from="1460630726707" duration="610000" />
-      <workItem from="1460714120138" duration="5305000" />
+      <workItem from="1460714120138" duration="5387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30404000" />
+    <option name="totallyTimeSpent" value="30486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1932" height="1047" extended-state="0" />
@@ -763,14 +761,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/contact/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="48" column="41" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
+        <state relative-caret-position="568">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="e#1500#1521#0#HTML" expanded="true" />
-            <element signature="e#1624#1650#0#HTML" expanded="true" />
-            <element signature="e#1738#1760#0#HTML" expanded="true" />
-            <element signature="e#1846#1868#0#HTML" expanded="true" />
-            <element signature="e#1950#1972#0#HTML" expanded="true" />
+            <element signature="e#1656#1682#0#HTML" expanded="true" />
+            <element signature="e#1778#1800#0#HTML" expanded="true" />
+            <element signature="e#1890#1912#0#HTML" expanded="true" />
+            <element signature="e#1998#2020#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
