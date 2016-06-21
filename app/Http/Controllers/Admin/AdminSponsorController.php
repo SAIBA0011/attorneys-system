@@ -86,7 +86,7 @@ class AdminSponsorController extends Controller
     public function update( AdminSponsorRequest $request, $id)
     {
         $sponsor = $this->repository->findSponsor($id);
-        $input = Input::only('title','description','category_id');
+        $input = Input::only('title', 'description', 'category_id', 'contact_number', 'website', 'email');
         $this->repository->updateFile($sponsor);
 
         $sponsor->update($input);
