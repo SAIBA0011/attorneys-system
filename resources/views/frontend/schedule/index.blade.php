@@ -180,7 +180,6 @@
         </div>
     </div>
 </div>
-{{--Day Id{{ dd(App\Models\Day::first()->id) }}--}}
 @endsection
 
 @section('scripts')
@@ -192,7 +191,7 @@
         });
         $(".nav-tabs li:first").addClass("active");
         @if(count($days))
-            $('#{{ App\Models\Day::first()->id }}').addClass("active")
+            $('#{{ \App\Models\Day::orderBy('date')->first()->id }}').addClass("active")
         @endif
     </script>
 @endsection
