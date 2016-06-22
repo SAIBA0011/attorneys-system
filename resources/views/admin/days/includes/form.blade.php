@@ -1,6 +1,6 @@
 {!! form::label('title', 'Day Title') !!}
 <div class="form-group" style="width: 100%!important;">
-    {!! Form::select('title', $days, null, ['class' => 'form-control', 'style' => 'width:100%']) !!}
+    {!! Form::input('text', 'title', null, ['class' => 'form-control', 'style' => 'width:100%']) !!}
 </div>
 
 <div class="form-group">

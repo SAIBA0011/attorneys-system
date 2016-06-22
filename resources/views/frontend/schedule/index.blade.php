@@ -32,8 +32,10 @@
                         @foreach($days as $day)
                             <li>
                                 <a class="text-center" id="hover-day" data-toggle="tab" href="#{{$day->id}}">
-                                    <span class="large">{{$day->title}}</span>
-                                    <br> {{\Carbon\Carbon::parse($day->date)->format('d-F')}}
+                                    <span class="meduim">{{$day->title}}</span>
+                                    <br> <span class="small">
+                                        {{\Carbon\Carbon::parse($day->date)->format('d-F')}}
+                                    </span>
                                 </a>
                             </li>
                         @endforeach

@@ -27,13 +27,12 @@ class AdminDayController extends Controller
 
     public function create()
     {
-        $days = $this->days();
-        return view('admin.days.create', compact('days'));
+        return view('admin.days.create');
     }
 
     public function store(AdminDayRequest $request)
     {
-        if (Day::where('title', '=', Input::get('title'))->exists()) {
+        if (Day::where('date', '=', Input::get('date'))->exists()) {
             Flash::info('Day already exists in database');
         } else
         Day::create(Input::all());
@@ -44,9 +43,7 @@ class AdminDayController extends Controller
     public function edit(Request $request, $id)
     {
         $day = Day::findorFail($id);
-        $days = $this->days();
-
-        return view('admin.days.edit', compact('day','days'));
+        return view('admin.days.edit', compact('day'));
     }
 
     public function update(AdminDayRequest $request, $id)
@@ -64,21 +61,6 @@ class AdminDayController extends Controller
         $day->delete();
         Flash::message('Day has been deleted');
         return redirect()->back();
-    }
-
-    private function days()
-    {
-        $days = [
-            'Day One'       => 'Day One',
-            'Day Two'       => 'Day Two',
-            'Day Three'     => 'Day Three',
-            'Day Four'      => 'Day Four',
-            'Day Five'      => 'Day Five',
-            'Day Six'       => 'Day Six',
-            'Day Seven'     => 'Day Seven',
-            'Day Eight'     => 'Day Eight',
-        ];
-        return $days;
     }
 
     private function getDays() {
