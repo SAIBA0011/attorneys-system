@@ -13,7 +13,7 @@ class Speaker extends Model implements SluggableInterface
     use RatingTrait;
     use SluggableTrait;
     protected $table = 'speakers';
-    protected $fillable = ['full_name','slug','organisation','job_title','bio','thumbnail','contact_number', 'website', 'email', 'rating'];
+    protected $fillable = ['full_name','slug','organisation','job_title','bio','thumbnail','contact_number', 'website', 'email', 'rating', 'position'];
     protected $sluggable = ['build_from' => 'full_name', 'save_to' => 'slug',];
 
  function panel()

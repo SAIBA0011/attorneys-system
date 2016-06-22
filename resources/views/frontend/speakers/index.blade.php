@@ -41,9 +41,9 @@
                             </div>
                         @endforeach
 
-                        <div class="col-md-12">
-                            {{$speakers->render()}}
-                        </div>
+                        {{--<div class="col-md-12">--}}
+                            {{--{{$speakers->render()}}--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>

@@ -28,6 +28,11 @@
     {!! Form::input('link', 'website', null, ['class' => 'form-control', 'placeholder' => 'www.website.co.za']) !!}
 </div>
 
+<div class="form-group">
+    {!! form::label('position', 'Display Position') !!}
+    {!! Form::input('number', 'position', null, ['class' => 'form-control']) !!}
+</div>
+
 <label for="thumbnail">Speaker Thumbnail</label>
 <div class="form-group input-group image-preview">
     <input type="text" name="thumbnail" value="{{ (isset($speaker->thumbnail)? $speaker->thumbnail : "") }}" class="form-control image-preview-filename" disabled="disabled"> <!-- don't give a name === doesn't send on POST/GET -->

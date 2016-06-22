@@ -12,7 +12,7 @@ class SpeakerController extends Controller
 {
     public function index()
     {
-        $speakers = Speaker::paginate(8);
+        $speakers = Speaker::all()->sortBy('position');
         return view('frontend.speakers.index', compact('speakers'));
     }
 
