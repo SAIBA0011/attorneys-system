@@ -92,7 +92,7 @@
                     <a href="#"> manage schedule <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level">
                         @foreach($days as $day)
-                            <li><a href="{{route('admin.schedule', $day->slug)}}">{{$day->title}}</a></li>
+                            <li><a href="{{route('admin.schedule', $day->slug)}}">{{date_format(\Carbon\Carbon::parse($day->date), 'd F')}}</a></li>
                         @endforeach
                             <li><a href="{{route('admin.pdf')}}">Upload PDF</a></li>
                     </ul>
