@@ -10,7 +10,7 @@
                             <div class="text-container">
                                 <center>
                                     <div class="intro-text text-center">
-                                        <h6 style="margin-bottom: 0px">{{ str_limit($slide->title, 68) }}</h6>
+                                        <h6 style="margin-bottom: 0px;" class="custom-font highlight">{{ str_limit($slide->title, 68) }}</h6>
                                         <p>{{ $slide->date_location }}</p>
                                     </div>
                                 </center>
@@ -24,7 +24,7 @@
                     <div class="text-container">
                         <center>
                             <div class="intro-text text-center">
-                                <h6 style="margin-bottom: 0px">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
+                                <h6 style="margin-bottom: 0px;" class="custom-font highlight">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h6>
                                 <p>00 & 00 Month Year, Venue, Location</p>
                             </div>
                         </center>
