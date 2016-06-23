@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +44,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminDayController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminDayController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewComposerServiceProvider.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="94" column="135" selection-start-line="94" selection-start-column="135" selection-end-line="94" selection-end-column="135" />
+            <state relative-caret-position="494">
+              <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -68,7 +87,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Frontend/MessagesController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminUserController.php" />
-        <option value="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/profiles/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/nav.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/AdminSliderRequest.php" />
@@ -114,6 +132,7 @@
         <option value="$PROJECT_DIR$/resources/views/frontend/sponsors/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/speakers/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -332,7 +351,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="sidebar&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/partials/sidebar.blade.php&#10;show&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/index.blade.php&#10;message&#9;FILE&#9;file://C:/laragon/www/attorneys/vendor/laracasts/flash/src/views/message.blade.php&#10;app&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/index.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;frontend.cs&#9;FILE&#9;file://C:/laragon/www/attorneys/public/css/frontend.css&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/schedule/index.blade.php&#10;DayCon&#9;null&#9;null&#10;Speaker&#9;null&#9;null&#10;AdminSp&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminSpeakerController.php&#10;speakers&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/speakers.blade.php&#10;show.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;SpeakerCon&#9;null&#9;null&#10;Sponsor&#9;null&#9;null&#10;AdminSponsorControlle&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Spons&#9;null&#9;null&#10;add&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;add_con&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;ViewCom&#9;null&#9;null&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php&#10;41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#9;FILE&#9;file://C:/laragon/www/attorneys/storage/framework/views/41ae0d98157f64b417f5cd2f487fe3235c4270e4.php&#10;frontend\profiles\index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="viewCOm&#9;null&#9;null&#10;AdminDay&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminDayController.php&#10;sidebar&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/partials/sidebar.blade.php&#10;show&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/index.blade.php&#10;message&#9;FILE&#9;file://C:/laragon/www/attorneys/vendor/laracasts/flash/src/views/message.blade.php&#10;app&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/index.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;frontend.cs&#9;FILE&#9;file://C:/laragon/www/attorneys/public/css/frontend.css&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/schedule/index.blade.php&#10;DayCon&#9;null&#9;null&#10;Speaker&#9;null&#9;null&#10;AdminSp&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminSpeakerController.php&#10;speakers&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/speakers.blade.php&#10;show.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;SpeakerCon&#9;null&#9;null&#10;Sponsor&#9;null&#9;null&#10;AdminSponsorControlle&#9;null&#9;null&#10;routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Spons&#9;null&#9;null&#10;add&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;add_con&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;ViewCom&#9;null&#9;null&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;Pusher&#9;null&#9;null&#10;.env&#9;FILE&#9;file://C:/laragon/www/attorneys/.env&#10;MessageCont&#9;null&#9;null&#10;kernel.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Kernel.php&#10;kernel.&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Console/Kernel.php&#10;ker&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/index.blade.php&#10;index.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;friend&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/profiles/friends/includes/navbar-accept-friend-request.blade.php&#10;index.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/members/index.blade.php&#10;AuthCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Auth/AuthController.php&#10;AuthContro&#9;null&#9;null&#10;User&#9;FILE&#9;file://C:/laragon/www/attorneys/app/User.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RunManager">
@@ -390,12 +409,12 @@
       <workItem from="1466571913092" duration="1712000" />
       <workItem from="1466596240825" duration="1353000" />
       <workItem from="1466659766826" duration="2686000" />
-      <workItem from="1466669592114" duration="2198000" />
+      <workItem from="1466669592114" duration="2334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41004000" />
+    <option name="totallyTimeSpent" value="41140000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
@@ -457,13 +476,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/partials/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -675,13 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminDayController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1862">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/schedule/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -820,8 +825,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="94" column="135" selection-start-line="94" selection-start-column="135" selection-end-line="94" selection-end-column="135" />
+        <state relative-caret-position="494">
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/AdminDayController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/ViewComposerServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
           <folding />
         </state>
       </provider>

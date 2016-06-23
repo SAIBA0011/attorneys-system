@@ -29,7 +29,7 @@ class ViewComposerServiceProvider extends ServiceProvider
         view()->composer('layouts.admin', function($view)
         {
             $view->with('currentUser', Auth::user('is_admin', true)->first());
-            $view->with('days', Day::all());
+            $view->with('days', Day::all()->sortBy('date'));
             $view->with('about', AboutUs::all());
             $view->with('information', EventInfo::all());
             $view->with('sponsorPage', SponsorPageContent::first());
