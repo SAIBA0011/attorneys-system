@@ -5,13 +5,13 @@
 
     <section class="section dark section">
         <div class="divider20"></div>
-        <div class="container">
+        <div class="auto-container">
             <div class="row">
                 @if(count($boxes))
                     @foreach ($boxes->slice(0, 3) as $box)
                         <div class="col-md-4 col-sm-4 text-center">
                             <i style="font-size: 35px; color: #cccccc;" class="fa {{ $box->icon }}"></i>
-                            <a href="{{$box->link}}"><h6>{{$box->title}}</h6></a> <hr>
+                            <a href="{{$box->link}}"><h6 class="highlight custom-font">{{$box->title}}</h6></a> <hr>
                             <p>{{$box->short_description}}</p>
                         </div>
                     @endforeach
@@ -19,7 +19,7 @@
                     @for($i=0; $i<3; $i++)
                         <div class="col-md-4 col-sm-4 text-center">
                             <i style="font-size: 35px; color: #cccccc;" class="fa fa-home"></i>
-                            <h6> Place Holder </h6> <hr>
+                            <h6 class="highlight custom-font">Place Holder</h6><hr>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda, atque corporis culpa.</p>
                         </div>
                     @endfor

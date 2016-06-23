@@ -54,7 +54,7 @@
                                     <img style="min-width: 100%;" src="{{$speaker->SpeakerImage()}}">
                                         <div class="caption text-center">
                                             <a href="{{route('about.speakers.show', $speaker->slug)}}">
-                                                <h8>{{str_limit($speaker->full_name, '20')}}</h8>
+                                                <h6 class="highlight custom-font">{{str_limit($speaker->full_name, '20')}}</h6>
                                                 <hr style="margin-top: 5px; margin-bottom: 5px">
                                                 <p>{{str_limit($speaker->organisation, 30)}}</p>
                                             </a>
