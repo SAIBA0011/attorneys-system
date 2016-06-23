@@ -26,11 +26,6 @@
 
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12">
-                        @if($sponsorpage)
-                            <h6 class="custom-font">{{ $sponsorpage->title }}</h6>
-                            {!! $sponsorpage->content !!}
-                        @endif
-
                         @foreach($categories as $category)
                             <hr width="100%">
                             <h6 class="sponsor-category">{{$category->title}}</h6>
@@ -51,6 +46,11 @@
                                 </div>
                             @endforeach
                         @endforeach
+
+                        @if($sponsorpage)
+                            <h6 class="custom-font">{{ $sponsorpage->title }}</h6>
+                            {!! $sponsorpage->content !!}
+                        @endif
 
                     </div>
                 </div>
