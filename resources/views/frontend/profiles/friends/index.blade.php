@@ -5,7 +5,11 @@
 @endsection
 @section('intro')
     <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab ad, alias aut commodi cumque doloribus eveniet, explicabo fugit, id laborum libero minus neque nihil nobis quam voluptatibus? Corporis, saepe?
+        @if($event)
+            {{ $event->title }}, {{$event->venue_name}}, {{ $event->date }}
+        @else
+            Event / Conference title
+        @endif
     </p>
 @endsection
 
