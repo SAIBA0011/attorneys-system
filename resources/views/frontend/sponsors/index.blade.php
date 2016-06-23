@@ -33,7 +33,7 @@
 
                         @foreach($categories as $category)
                             <hr width="100%">
-                            <h6 class="sponsor-category">Event {{$category->title}}</h6>
+                            <h6 class="sponsor-category">{{$category->title}}</h6>
                             <hr width="100%">
 
                             @foreach($category->sponsor as $sponsor)
@@ -45,6 +45,7 @@
                                     <div class="col-md-9 col-sm-9 col-lg-9">
                                         <p><a href="{{route('about.sponsors.show', $sponsor->slug)}}" class="lg">{{$sponsor->title}}</a></p>
                                         {!! str_limit($sponsor->description, '270') !!}
+                                        <hr>
                                         <p><a href="{{route('about.sponsors.show', $sponsor->slug)}}" class="btn btn-default">Visit Sponsor</a></p>
                                     </div>
                                 </div>
