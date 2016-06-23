@@ -6,7 +6,7 @@
     {{$speaker->full_name}}
 @endsection
 @section('intro')
-    {{str_limit($speaker->job_title)}}, {{$speaker->organisation}}
+    {{str_limit($speaker->job_title)}}
 @endsection
 
 <div class="container">
