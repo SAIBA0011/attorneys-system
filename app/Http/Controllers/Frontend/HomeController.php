@@ -14,11 +14,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $partners = Partner::pluck('thumbnail', 'id')->toArray();
-        $sponsors = Sponsor::pluck('thumbnail', 'id')->toArray();
-        $images = array_merge($partners, $sponsors);
-
+        $partners = Partner::all();
         $about = AboutUs::first();
-        return view('frontend.home', compact('images', 'about'));
+        return view('frontend.home', compact('partners', 'about'));
     }
 }
