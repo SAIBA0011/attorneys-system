@@ -36,7 +36,6 @@ class ViewComposerServiceProvider extends ServiceProvider
         });
 
         view()->composer('frontend.home', function($view){
-            $view->with('partners', Partner::all());
             $view->with('slides', Slider::all());
             $view->with('boxes', HomePage::all());
             $view->with('speakers', Speaker::all());

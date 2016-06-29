@@ -11,6 +11,7 @@
                         <table class="table table-hover table-bordered" id="speakers-table">
                             <thead>
                             <tr>
+                                <th>Position</th>
                                 <th>Speaker full name</th>
                                 <th>Job title & organization</th>
                                 <th>Speaker Rating</th>
@@ -23,6 +24,7 @@
                             <tbody>
                             @foreach($speakers as $speaker)
                                 <tr>
+                                    <td class="text-center"><span class="label label-info" style="background-color: #FF9900">{{ $speaker->position }}</span></td>
                                     <td>{{$speaker->full_name}}</td>
                                     <td>{{$speaker->job_title}}, {{$speaker->organisation}}</td>
                                     <th>

@@ -3,8 +3,8 @@
         <div class="divider40"></div>
         <div class="row">
             <div class="col-md-12">
-                @if(count($partners) === 0)
 
+                @if(count($partners) === 0)
                     @for($i=0;$i<6;$i++)
                         <div class="col-md-2 col-sm-2 col-xs-2"><a href="">
                         <img style="max-width: 100%" src="/assets/frontend/placeholder/partner.jpg" class="thumbnail" alt=""></a></div>
@@ -13,7 +13,7 @@
                 @elseif(count($partners) <= 6)
                     @foreach($partners->slice(0, 6) as $partner)
                         <div class="col-md-2 col-sm-2 col-xs-2"><a href="{{ route('about.partners.show', $partner->slug) }}">
-                                <img style="max-width: 100%" src="{{$partner->PartnerImage()}}" class="thumbnail" alt=""></a>
+                                <img style="max-width: 100%" src="{{$partner->thumbnail}}" class="thumbnail" alt=""></a>
                         </div>
                     @endforeach
 
@@ -27,7 +27,7 @@
                                         @foreach($chunked as $partner)
                                             <div class="col-md-2 col-sm-2 col-xs-2">
                                                 <a href="{{ route('about.partners.show', $partner->slug) }}" class="thumbnail">
-                                                    <img src="{{$partner->PartnerImage()}}" alt="Image" style="max-width:100%;"></a></div>
+                                                    <img src="{{$partner->thumbnail}}" alt="Image" style="max-width:100%;"></a></div>
                                         @endforeach
 
                                     </div>
