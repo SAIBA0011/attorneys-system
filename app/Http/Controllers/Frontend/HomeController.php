@@ -14,10 +14,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $old_partners = Partner::all();
-        $sponsors = Sponsor::all();
-        $partners = $old_partners->merge($sponsors);
-
+        $partners = Partner::all();
+        
         $about = AboutUs::first();
         return view('frontend.home', compact('partners', 'about'));
     }
