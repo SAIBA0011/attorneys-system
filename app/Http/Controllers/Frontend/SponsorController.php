@@ -13,7 +13,7 @@ class SponsorController extends Controller
 {
     public function index()
     {
-        $categories = Category::all();
+        $categories = Category::all()->sortBy('position');
         return view('frontend.sponsors.index', compact('categories'));
     }
 
