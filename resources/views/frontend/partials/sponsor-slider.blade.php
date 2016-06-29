@@ -29,7 +29,7 @@
                                                 <a href="{{ route('about.partners.show', $partner->slug) }}" class="thumbnail">
                                                     <img src="{{$partner->thumbnail}}" alt="Image" style="max-width:100%;"></a></div>
                                         @endforeach
-
+ 
                                     </div>
                                 </div>
                             @endforeach
