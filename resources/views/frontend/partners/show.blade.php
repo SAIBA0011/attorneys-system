@@ -23,7 +23,7 @@
                         {!! $partner->description !!}
 
                         <hr>
-                        <i class="fa fa-globe" style="color: #e3e3e3"></i> Website: {{ ($partner->website)? : "No website suplied" }} <span class="solid-line"></span>
+                        <i class="fa fa-globe" style="color: #e3e3e3"></i> Website: <a href="{{ ($partner->website)? : "#" }}">{{ ($partner->website)? : "No website suplied" }}</a> <span class="solid-line"></span>
                         <i class="fa fa-envelope" style="color: #e3e3e3"></i> Email Address: {{ ($partner->email)? : "No email suplied" }} <span class="solid-line"></span>
                         <i class="fa fa-phone" style="color: #e3e3e3"></i> Phone Number: {{ ($partner->contact_number)? : "No number suplied" }}
                         <hr>
