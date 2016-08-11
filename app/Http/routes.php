@@ -197,3 +197,5 @@ Route::group(['middleware' => ['web']], function () {
         Route::get('contact', ['as' => 'contact', 'uses' => 'Frontend\ContactController@index']);
         Route::post('contact', ['as' => 'contact.store', 'uses' => 'Frontend\ContactController@store']);
 });
+
+Route::get('suspend_users', []);
