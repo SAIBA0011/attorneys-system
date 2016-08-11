@@ -25,8 +25,8 @@
 
                         <hr>
                         <i class="fa fa-globe" style="color: #e3e3e3"></i> Website: <a href="{{ ($sponsor->website)? : "#" }}">{{ ($sponsor->website)? : "No website suplied" }}</a> <span class="solid-line"></span>
-                        <i class="fa fa-envelope" style="color: #e3e3e3"></i> Email Address: {{ ($sponsor->email)? : "No email suplied" }} <span class="solid-line"></span>
-                        <i class="fa fa-phone" style="color: #e3e3e3"></i> Phone Number: {{ ($sponsor->contact_number)? : "No number suplied" }}
+                        <i class="fa fa-envelope" style="color: #e3e3e3"></i> Email Address: {{ ($sponsor->email)? : "None" }} <span class="solid-line"></span>
+                        <i class="fa fa-phone" style="color: #e3e3e3"></i> Phone Number: {{ ($sponsor->contact_number)? : "None" }}
                         <hr>
 
                     </div>
