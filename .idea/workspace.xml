@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72b14028-5faf-47f2-86a1-63a4290c0cd5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/partners/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/partners/show.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" />
     </list>
     <ignored path="attorneys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +27,32 @@
       <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/sponsors/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="1050">
               <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/frontend/partners/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state relative-caret-position="378">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="16" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <marker date="1471437741534" expanded="false" signature="517:532" ph="..." />
+                <marker date="1471437741534" expanded="false" signature="572:586" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +74,6 @@
         <option value="$PROJECT_DIR$/resources/views/admin/days/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/pdf/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/sliders/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/partners/includes/summernote.blade.php" />
         <option value="$PROJECT_DIR$/app/Repositories/Partner/PartnerRepository.php" />
@@ -102,6 +115,7 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/sponsors/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/frontend/partners/show.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php" />
       </list>
     </option>
   </component>
@@ -168,7 +182,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +192,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -186,7 +200,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="show&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partners/show.blade.php&#10;show.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/show.blade.php&#10;routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;footer&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/footer.blade.php&#10;route&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;footer.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/footer.blade.php&#10;footer.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/partials/footer.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;HomeCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Frontend/HomeController.php&#10;Category&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/index.blade.php&#10;SponsorCOn&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Frontend/SponsorController.php&#10;edit.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/sponsors/content/edit.blade.php&#10;Sponso&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Sponsor.php&#10;Partner&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Partner.php&#10;HomeController&#9;null&#9;null&#10;AdminHomePageContentControlle&#9;null&#9;null&#10;Speaker&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Speaker.php&#10;viewCOm&#9;null&#9;null&#10;AdminDay&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminDayController.php&#10;sidebar&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/partials/sidebar.blade.php&#10;index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/index.blade.php&#10;message&#9;FILE&#9;file://C:/laragon/www/attorneys/vendor/laracasts/flash/src/views/message.blade.php&#10;app&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;frontend.cs&#9;FILE&#9;file://C:/laragon/www/attorneys/public/css/frontend.css&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/schedule/index.blade.php&#10;DayCon&#9;null&#9;null&#10;AdminSp&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminSpeakerController.php&#10;speakers&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/speakers.blade.php&#10;show.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;SpeakerCon&#9;null&#9;null&#10;Sponsor&#9;null&#9;null&#10;AdminSponsorControlle&#9;null&#9;null&#10;Spons&#9;null&#9;null&#10;add&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;add_con&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;ViewCom&#9;null&#9;null&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="index.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/bookings/index.blade.php&#10;show&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partners/show.blade.php&#10;show.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/show.blade.php&#10;routes&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;footer&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/footer.blade.php&#10;route&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php&#10;footer.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/footer.blade.php&#10;footer.blade.&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/partials/footer.blade.php&#10;home&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/home.blade.php&#10;HomeCon&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Frontend/HomeController.php&#10;Category&#9;null&#9;null&#10;index&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/sponsors/index.blade.php&#10;SponsorCOn&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Frontend/SponsorController.php&#10;edit.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/sponsors/content/edit.blade.php&#10;Sponso&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Sponsor.php&#10;Partner&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Partner.php&#10;HomeController&#9;null&#9;null&#10;AdminHomePageContentControlle&#9;null&#9;null&#10;Speaker&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/Speaker.php&#10;viewCOm&#9;null&#9;null&#10;AdminDay&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminDayController.php&#10;sidebar&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/admin/partials/sidebar.blade.php&#10;message&#9;FILE&#9;file://C:/laragon/www/attorneys/vendor/laracasts/flash/src/views/message.blade.php&#10;app&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;slider&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/slider.blade.php&#10;app.scss&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/assets/sass/frontend/scss/app.scss&#10;frontend.cs&#9;FILE&#9;file://C:/laragon/www/attorneys/public/css/frontend.css&#10;header&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/header.blade.php&#10;index.blade.php&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/schedule/index.blade.php&#10;DayCon&#9;null&#9;null&#10;AdminSp&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/Controllers/Admin/AdminSpeakerController.php&#10;speakers&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/speakers.blade.php&#10;show.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/speakers/show.blade.php&#10;SpeakerCon&#9;null&#9;null&#10;Sponsor&#9;null&#9;null&#10;AdminSponsorControlle&#9;null&#9;null&#10;Spons&#9;null&#9;null&#10;add&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;Event&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Models/EventInfo.php&#10;add_con&#9;FILE&#9;file://C:/laragon/www/attorneys/database/migrations/2016_04_15_113340_add_contact_details_to_event_information.php&#10;PartnerRe&#9;null&#9;null&#10;composer.json&#9;FILE&#9;file://C:/laragon/www/attorneys/composer.json&#10;fron&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/frontend.blade.php&#10;SliderCon&#9;null&#9;null&#10;nav.blade&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/frontend/partials/nav.blade.php&#10;ViewCom&#9;null&#9;null&#10;bootstrap-confirm-delete.j&#9;FILE&#9;file://C:/laragon/www/attorneys/public/assets/admin/dist/js/bootstrap-confirm-delete.js&#10;admin.bl&#9;FILE&#9;file://C:/laragon/www/attorneys/resources/views/layouts/admin.blade.php&#10;AdminUser&#9;null&#9;null&#10;routes.php&#9;FILE&#9;file://C:/laragon/www/attorneys/app/Http/routes.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
@@ -262,7 +276,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25726587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26264802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -317,13 +331,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -662,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/sponsors/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="1050">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
@@ -670,9 +677,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/frontend/partners/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        <state relative-caret-position="378">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/frontend/bookings/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="16" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <marker date="1471437741534" expanded="false" signature="517:532" ph="..." />
+            <marker date="1471437741534" expanded="false" signature="572:586" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
